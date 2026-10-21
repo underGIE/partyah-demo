@@ -1,13 +1,13 @@
 {
   "target": "https://undergie.github.io/partyah-demo/preview/",
-  "source_commit": "92454c3bd92635f14c6d5acbd358679306d1f62c",
+  "source_commit": "0f29e45b16d85bd9a6d058b54ca9083e75198b50",
   "safe_preview": true,
   "pricing_enabled": false,
   "payments_enabled": false,
   "external_messaging_enabled": false,
-  "source_count": 2987,
+  "source_count": 2990,
   "files": {
-    "_expo/static/js/web/entry-ab818480acae37278dfba4e38f7ea7ed.js": "6bc53ccc3db36f2894b621f0c1faebe5ddac604c4e2ef7364faf1eb41e6af954",
+    "_expo/static/js/web/entry-115ee2023167898473fe9c39a15d13d9.js": "82469049e87afa3e30602c1dd0a72e9fc8332561b6a875fc53edc22c860173a0",
     "assets/assets/brand/partyah-dj-v1.a79ed5473a33a23164aeb70d1c3d28a3.png": "2a0c0608fe96ab538170b19e8076804a4bf3ed350df3b0c4288fa48930fb2cf8",
     "assets/assets/brand/partyah-event-v1.89fa1431eba2a217673eafbbc6343d90.png": "28360e79a300058ebea9367fe0027f206a13fda1f00e8768e043b3095af6c98d",
     "assets/assets/brand/partyah-organizer-v1.6fe5dc6b0059aeec9d1aa74f4847afa9.png": "4cbe5949ce52d7867907de4a86028eb78001575c612657145779930009aa8111",
@@ -39,7 +39,8 @@
     "assets/node_modules/expo-router/assets/sitemap.412dd9275b6b48ad28f5e3d81bb1f626.png": "acf691957a3bcce7d195856dce98a5cf14dce10bea28aa5c10b3550c078e23b5",
     "assets/node_modules/expo-router/assets/unmatched.20e71bdf79e3a97bf55fd9e164041578.png": "efc79da3c4c97dfb1571bff6202958ab0529c5aa31e8392600578b3e359d1447",
     "favicon.ico": "bfb2b637a9d55a685a34f4a2a296bc119ac090bb0e7073e1679fe4cba99d4c65",
-    "index.html": "7703ec6b2b2c6f6b9584d0cb93d45e6b5db23b69ac24f2d6809c9df9fba9e475",
-    "legal/index.html": "7703ec6b2b2c6f6b9584d0cb93d45e6b5db23b69ac24f2d6809c9df9fba9e475"
+    "index.html": "d81575370d2ff1fcc9ac7ada9dd18ac26946fd4fe09dc7d5d9cb5f02cf7bc6c6",
+    "legal/index.html": "d81575370d2ff1fcc9ac7ada9dd18ac26946fd4fe09dc7d5d9cb5f02cf7bc6c6",
+    "walkthrough/index.html": "d81575370d2ff1fcc9ac7ada9dd18ac26946fd4fe09dc7d5d9cb5f02cf7bc6c6"
   }
 }
