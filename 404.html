@@ -23,7 +23,12 @@
         flex: 1;
       }
     </style>
-  <link rel="icon" href="/partyah-demo/favicon.ico"/></head>
+  <link rel="icon" href="/partyah-demo/favicon.ico"/><script id="partyah-crew-pilot-fallback">(function(){
+var b='/partyah-demo/crew-pilot',p=location.pathname;
+if(p.indexOf(b+'/')===0 && p!==b+'/'){
+location.replace(b+'/?__crew_route='+encodeURIComponent(p.slice(b.length)+location.search)+location.hash);
+}
+})();</script></head>
 
   <body><script>(function(){var p=location.pathname;var m=p.indexOf("/try/");if(m>-1){location.replace(p.slice(0,m)+p.slice(m+4)+location.search+location.hash);}})();</script>
     <!-- Use static rendering with Expo Router to support running without JavaScript. -->
