@@ -1,13 +1,13 @@
 {
   "target": "https://undergie.github.io/partyah-demo/preview/",
-  "source_commit": "0f29e45b16d85bd9a6d058b54ca9083e75198b50",
+  "source_commit": "e6595d8e9df2c6666643b909607ec8c8cdf7dd1c",
   "safe_preview": true,
   "pricing_enabled": false,
   "payments_enabled": false,
   "external_messaging_enabled": false,
-  "source_count": 2990,
+  "source_count": 2979,
   "files": {
-    "_expo/static/js/web/entry-115ee2023167898473fe9c39a15d13d9.js": "82469049e87afa3e30602c1dd0a72e9fc8332561b6a875fc53edc22c860173a0",
+    "_expo/static/js/web/entry-2455b4f9fe042f3f0b1970118bfb4c7e.js": "7eaedbf5a2bb10bfed7ea346136f877d9244aa80d66d5eef2000225d201aa607",
     "assets/assets/brand/partyah-dj-v1.a79ed5473a33a23164aeb70d1c3d28a3.png": "2a0c0608fe96ab538170b19e8076804a4bf3ed350df3b0c4288fa48930fb2cf8",
     "assets/assets/brand/partyah-event-v1.89fa1431eba2a217673eafbbc6343d90.png": "28360e79a300058ebea9367fe0027f206a13fda1f00e8768e043b3095af6c98d",
     "assets/assets/brand/partyah-organizer-v1.6fe5dc6b0059aeec9d1aa74f4847afa9.png": "4cbe5949ce52d7867907de4a86028eb78001575c612657145779930009aa8111",
@@ -39,8 +39,8 @@
     "assets/node_modules/expo-router/assets/sitemap.412dd9275b6b48ad28f5e3d81bb1f626.png": "acf691957a3bcce7d195856dce98a5cf14dce10bea28aa5c10b3550c078e23b5",
     "assets/node_modules/expo-router/assets/unmatched.20e71bdf79e3a97bf55fd9e164041578.png": "efc79da3c4c97dfb1571bff6202958ab0529c5aa31e8392600578b3e359d1447",
     "favicon.ico": "bfb2b637a9d55a685a34f4a2a296bc119ac090bb0e7073e1679fe4cba99d4c65",
-    "index.html": "d81575370d2ff1fcc9ac7ada9dd18ac26946fd4fe09dc7d5d9cb5f02cf7bc6c6",
-    "legal/index.html": "d81575370d2ff1fcc9ac7ada9dd18ac26946fd4fe09dc7d5d9cb5f02cf7bc6c6",
-    "walkthrough/index.html": "d81575370d2ff1fcc9ac7ada9dd18ac26946fd4fe09dc7d5d9cb5f02cf7bc6c6"
+    "index.html": "277513051a286bbe24da0a4e4882d0d58724e74a39c7bb84687776606b0d3190",
+    "legal/index.html": "277513051a286bbe24da0a4e4882d0d58724e74a39c7bb84687776606b0d3190",
+    "walkthrough/index.html": "277513051a286bbe24da0a4e4882d0d58724e74a39c7bb84687776606b0d3190"
   }
 }
