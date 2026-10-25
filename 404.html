@@ -28,9 +28,9 @@ var b='/partyah-demo/crew-pilot',p=location.pathname;
 if(p.indexOf(b+'/')===0 && p!==b+'/'){
 location.replace(b+'/?__crew_route='+encodeURIComponent(p.slice(b.length)+location.search)+location.hash);
 }
-})();</script></head>
+})();</script><script id="partyah-try-fallback">(function(){var b='/partyah-demo/try',p=location.pathname;if(p.indexOf(b+'/')===0&&p!==b+'/'){location.replace(b+'/?__partyah_route='+encodeURIComponent(p.slice(b.length)+location.search)+location.hash);}})();</script><script id="partyah-preview-fallback">(function(){var b='/partyah-demo/preview',p=location.pathname;if(p.indexOf(b+'/')===0&&p!==b+'/'){location.replace(b+'/?__partyah_route='+encodeURIComponent(p.slice(b.length)+location.search)+location.hash);}})();</script></head>
 
-  <body><script>(function(){var p=location.pathname;var m=p.indexOf("/try/");if(m>-1){location.replace(p.slice(0,m)+p.slice(m+4)+location.search+location.hash);}})();</script>
+  <body>
     <!-- Use static rendering with Expo Router to support running without JavaScript. -->
     <noscript>
       You need to enable JavaScript to run this app.
