@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- viewport-fit=cover (29/10 phone playtest): without it every
+         env(safe-area-inset-*) reads 0, so the tab bar, sheets and footers
+         cannot step above the iPhone home indicator. The kit reads the
+         insets through react-native-safe-area-context. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
     <title>PARTYAH</title>
     <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
@@ -37,6 +41,6 @@ location.replace(b+'/?__crew_route='+encodeURIComponent(p.slice(b.length)+locati
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/partyah-demo/_expo/static/js/web/entry-675dc773f71751599b18b2b5e55e00e7.js" defer></script>
+  <script src="/partyah-demo/_expo/static/js/web/entry-4370d8a6f0a82be5f686f61a78cad615.js" defer></script>
 </body>
 </html>
