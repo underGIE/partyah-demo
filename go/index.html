@@ -46,6 +46,9 @@
   .contact{background:var(--lilac);border:2px solid var(--ink);padding:14px 16px;margin:28px 0 0;font-weight:500}
   .contact .num{font-family:ui-monospace,Menlo,monospace;font-size:20px;font-weight:700;direction:ltr;display:inline-block}
   footer{font-size:13px;color:var(--muted);margin-top:28px;text-align:center}
+  .demo{margin:4px 0 0;display:flex;flex-direction:column;align-items:center}
+  .demo video{display:block;width:min(260px,72vw);height:auto;aspect-ratio:480/958;border-radius:18px;background:var(--lilac)}
+  .demo figcaption{font-size:14px;font-weight:700;margin-top:10px;text-align:center}
   @media (min-width:640px){.strip figure{flex-basis:42%}}
 </style>
 </head>
@@ -65,6 +68,15 @@
 
   <a class="cta" href="https://undergie.github.io/partyah-demo/email?as=organizer">פותחים מסיבה · 3 דקות</a>
   <p class="fine">הרשמה במייל וסיסמה. חינם בתקופת הפיילוט. התשלום של האורחים עובר אליך ישירות, לא דרכנו.</p>
+
+  <h2>רואים את זה עובד</h2>
+  <!-- The demo loop (tools/demo/build.mjs): muted, plays only once it is on screen, no sound ever. -->
+  <figure class="demo">
+    <video id="demo-loop" muted loop playsinline preload="none" poster="demo-poster.jpg" aria-label="סרטון קצר: הצמיד של האורח, סריקה בשער, ונכנסת">
+      <source src="demo-loop.mp4" type="video/mp4">
+    </video>
+    <figcaption>הצמיד, השער, ו"נכנסת ✓" · מהאפליקציה עצמה</figcaption>
+  </figure>
 
   <h2>ככה זה נראה לאורחים ולך</h2>
   <div class="strip-wrap"><div class="strip">
@@ -91,5 +103,16 @@
 
   <footer>PARTYAH · פיילוט 2026 · <a href="https://undergie.github.io/partyah-demo/legal">תנאי הפיילוט ופרטיות</a></footer>
 </div>
+<script>
+  // Play the demo loop only while it is on screen (it never has sound).
+  (function () {
+    var v = document.getElementById('demo-loop');
+    if (!v || !('IntersectionObserver' in window)) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) { v.controls = true; return; }
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { v.play().catch(function () { v.controls = true; }); } else { v.pause(); } });
+    }, { threshold: 0.4 }).observe(v);
+  })();
+</script>
 </body>
 </html>
