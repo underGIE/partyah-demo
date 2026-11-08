@@ -49,6 +49,12 @@
   .demo{margin:4px 0 0;display:flex;flex-direction:column;align-items:center}
   .demo video{display:block;width:min(260px,72vw);height:auto;aspect-ratio:480/958;border-radius:18px;background:var(--lilac)}
   .demo figcaption{font-size:14px;font-weight:700;margin-top:10px;text-align:center}
+  .prov{border-top:2px solid var(--ink);margin-top:34px;padding-top:4px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
+  .chips li{background:var(--paper);border:1.5px solid var(--ink);border-radius:999px;padding:4px 12px;font-size:15px;font-weight:500}
+  .prov ul.plain{margin:0 0 18px;padding:0;padding-inline-start:20px;display:grid;gap:6px}
+  .cta2{display:block;text-align:center;background:var(--paper);color:var(--ink);text-decoration:none;font-weight:900;font-size:19px;padding:14px 16px;border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);margin:0 0 10px}
+  .cta2:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
   @media (min-width:640px){.strip figure{flex-basis:42%}}
 </style>
 </head>
@@ -98,6 +104,21 @@
   </ol>
 
   <a class="cta" href="https://undergie.github.io/partyah-demo/email?as=organizer" style="margin-top:26px">פותחים מסיבה עכשיו</a>
+
+  <!-- Providers. The button opens the app's provider onboarding (/dj/join; ?as=provider is read by the provider build). -->
+  <section class="prov" id="providers">
+    <h2>לספקים</h2>
+    <ul class="chips" aria-label="סוגי ספקים">
+      <li>DJ</li><li>הגברה וציוד</li><li>צילום</li><li>בר נייד</li><li>אבטחה</li>
+    </ul>
+    <ul class="plain">
+      <li>בקשות ממסיבות אמיתיות, עם תאריך, שעות ומקום.</li>
+      <li>ל-DJ: המחיר לפי שעות המסיבה, בתעריף שאתם קובעים.</li>
+      <li>בלי עמלה. התשלום ביניכם ישירות, לא דרכנו.</li>
+    </ul>
+    <a class="cta2" href="https://undergie.github.io/partyah-demo/dj/join?as=provider">להשאיר פרטים</a>
+    <p class="fine">DJ מצטרפים כבר היום. הגברה, צילום, בר ואבטחה בהזמנה בלבד בשלב הזה: משאירים פרטים, וצוות PARTYAH חוזר אליכם.</p>
+  </section>
 
   <div class="contact">שאלה לפני? צוות PARTYAH בוואטסאפ: <span class="num">054-6318080</span><br><span style="font-size:14px;color:var(--muted)">אנחנו עונים אישית ומלווים את המסיבה הראשונה שלך.</span></div>
 
