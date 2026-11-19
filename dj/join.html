@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport-fit=cover (29/10 phone playtest): without it every
+         env(safe-area-inset-*) reads 0, so the tab bar, sheets and footers
+         cannot step above the iPhone home indicator. The kit reads the
+         insets through react-native-safe-area-context. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <title>PARTYAH</title>
+    <!-- Link preview when the root is pasted in WhatsApp/Telegram (6.11).
+         Card made by tools/make_share_images.py; a party link gets its own
+         card from the party-preview function, not from these tags. -->
+    <meta name="description" content="בקשה להצטרף למסיבה בלינק אחד. בלי אפליקציה, בלי הרשמה." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PARTYAH" />
+    <meta property="og:locale" content="he_IL" />
+    <meta property="og:title" content="PARTYAH · המסיבה שלך, לינק אחד" />
+    <meta property="og:description" content="בקשות, אישור, צמיד, כניסה בשער. בלי אפליקציה, בלי הרשמה." />
+    <meta property="og:url" content="https://undergie.github.io/partyah-demo/" />
+    <meta property="og:image" content="https://undergie.github.io/partyah-demo/share/root.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="PARTYAH · המסיבה שלך, לינק אחד" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <link rel="icon" href="/partyah-demo/favicon.ico"/></head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/partyah-demo/_expo/static/js/web/__expo-metro-runtime-1f8f5d3ca6b7f58204d51e14506d73fb.js" defer></script><script src="/partyah-demo/_expo/static/js/web/__common-3872d8fbdf52322d9854d1067c29e9af.js" defer></script><script src="/partyah-demo/_expo/static/js/web/entry-d926ac041a6318a860bb0442ef1f6b8d.js" defer></script>
+</body>
+</html>
